@@ -1,0 +1,345 @@
+{
+    "bio": [
+        {
+            "time": "9:00 AM - 9:35 AM",
+            "projectId": "bio-900-1",
+            "title": "DNA Methylation in Maize and Setaria: Preparation, Creation and Analysis of Gene Expression between the Orthologues genes in Maize and Setaria",
+            "studentName": "Paula Goelzer",
+            "studentMajor": "Biology",
+            "projectType": "Biology",
+            "facultyAdvisor": "Dr.Thelma Madzima",
+            "posterLink": "./posters/bio/Kandice Timmons 2.png"
+        },
+        {
+            "time": "9:00 AM - 9:35 AM",
+            "projectId": "bio-900-2",
+            "title": "DNA Methylation in Maize and Setaria: Preparation, Creation and Analysis of Gene Expression between the Orthologues genes in Maize and Setaria",
+            "studentName": "Medelyn Hernandez",
+            "studentMajor": "Biology",
+            "projectType": "Biology",
+            "facultyAdvisor": "Dr. Thelma Madzima",
+            "posterLink": "./posters/bio/Kandice Timmons 2.png"
+        },
+        {
+            "time": "9:00 AM - 9:35 AM",
+            "projectId": "bio-900-3",
+            "title": "DNA Methylation in Maize and Setaria: Preparation, Creation and Analysis of Gene Expression between the Orthologues genes in Maize and Setaria",
+            "studentName": "Lauren Hsuan",
+            "studentMajor": "Biology",
+            "projectType": "Biology",
+            "facultyAdvisor": "Dr. Thelma Madzima",
+            "posterLink": "./posters/bio/Kandice Timmons 2.png"
+        },
+        {
+            "time": "9:00 AM - 9:35 AM",
+            "projectId": "bio-900-4",
+            "title": "DNA Methylation in Maize and Setaria: Preparation, Creation and Analysis of Gene Expression between the Orthologues genes in Maize and Setaria",
+            "studentName": "Jeanne Xuan Nguyen",
+            "studentMajor": "Biology",
+            "projectType": "Biology",
+            "facultyAdvisor": "Dr. Thelma Madzima",
+            "posterLink": "./posters/bio/Kandice Timmons 2.png"
+        },
+        {
+            "time": "9:00 AM - 9:35 AM",
+            "projectId": "bio-900-5",
+            "title": "DNA Methylation in Maize and Setaria: Preparation, Creation and Analysis of Gene Expression between the Orthologues genes in Maize and Setaria",
+            "studentName": "Melanie Alexandra Palomino",
+            "studentMajor": "Biology",
+            "projectType": "Biology",
+            "facultyAdvisor": "Dr. Thelma Madzima",
+            "posterLink": "./posters/bio/Kandice Timmons 2.png"
+        },
+        {
+            "time": "9:00 AM - 9:35 AM",
+            "projectId": "bio-900-6",
+            "title": "DNA Methylation in Maize and Setaria: Preparation, Creation and Analysis of Gene Expression between the Orthologues genes in Maize and Setaria",
+            "studentName": "Kandice Timmons",
+            "studentMajor": "Biology",
+            "projectType": "Biology",
+            "facultyAdvisor": "Dr. Thelma Madzima",
+            "posterLink": "./posters/bio/Kandice Timmons 2.png"
+        },
+        {
+            "time": "9:35 AM - 9:55 AM",
+            "projectId": "bio-935-1",
+            "title": "Extraction of Alantolactone and Isoalantolactone from Inula Helenium",
+            "studentName": "Hannah Limb",
+            "studentMajor": "Biology (B.S.) / Neuroscience Minor",
+            "projectType": "Biology",
+            "facultyAdvisor": "Dr. Salwa Al-Noori",
+            "posterLink": "./posters/bio/Saxton Group.jpg"
+        },
+        {
+            "time": "9:35 AM - 9:55 AM",
+            "projectId": "bio-935-2",
+            "title": "Extraction of Alantolactone and Isoalantolactone from Inula Helenium",
+            "studentName": "Joleen Nguyen",
+            "studentMajor": "Biology (B.S.)",
+            "projectType": "Biology",
+            "facultyAdvisor": "Dr. Salwa Al-Noori",
+            "posterLink": "./posters/bio/Saxton Group.jpg"
+        },
+        {
+            "time": "9:35 AM - 9:55 AM",
+            "projectId": "bio-935-3",
+            "title": "Extraction of Alantolactone and Isoalantolactone from Inula Helenium",
+            "studentName": "Saxton Sykes",
+            "studentMajor": "Biology (B.S.) / Chemistry Minor",
+            "projectType": "Biology",
+            "facultyAdvisor": "Dr. Salwa Al-Noori",
+            "posterLink": "./posters/bio/Saxton Group.jpg"
+        },
+        {
+            "time": "10:05 AM - 10:25 AM",
+            "projectId": "bio-1005-1",
+            "title": "Extraction of Hyperforin and Hypericin from St. John's Wart",
+            "studentName": "Julia Crousee",
+            "studentMajor": "Biology (B.S.) / Health Studies Minor",
+            "projectType": "Biology",
+            "facultyAdvisor": "Dr. Salwa Al-Noori",
+            "posterLink": "./posters/bio/Julia Crous.png"
+        },
+        {
+            "time": "10:05 AM - 10:25 AM",
+            "projectId": "bio-1005-2",
+            "title": "Extraction of Hyperforin and Hypericin from St. John's Wart",
+            "studentName": "Lilyan Koseki",
+            "studentMajor": "Biology (B.S.) / Neuroscience Minor",
+            "projectType": "Biology",
+            "facultyAdvisor": "Dr. Salwa Al-Noori",
+            "posterLink": "./posters/bio/Julia Crous.png"
+        },
+        {
+            "time": "10:25 AM - 10:45 AM",
+            "projectId": "bio-1025-1",
+            "title": "Extraction Products of Pot Marigold and Eucalyptus and the Identification of Phenols and Iron Levels",
+            "studentName": "Nathasya Asnawi",
+            "studentMajor": "Biology (B.S.) / Chemistry Minor",
+            "projectType": "Biology",
+            "facultyAdvisor": "Dr. Salwa Al-Noori",
+            "posterLink": "./posters/bio/Nathasya Poster.jpg"
+        },
+        {
+            "time": "10:25 AM - 10:45 AM",
+            "projectId": "bio-1025-2",
+            "title": "Extraction Products of Pot Marigold and Eucalyptus and the Identification of Phenols and Iron Levels",
+            "studentName": " Nazrawit Getachew",
+            "studentMajor": "Biology (B.S.)",
+            "projectType": "Biology",
+            "facultyAdvisor": "Dr. Salwa Al-Noori",
+            "posterLink": "./posters/bio/Nathasya Poster.jpg"
+        },
+        {
+            "time": "10:25 AM - 10:45 AM",
+            "projectId": "bio-1025-3",
+            "title": "Extraction Products of Pot Marigold and Eucalyptus and the Identification of Phenols and Iron Levels",
+            "studentName": " Marivel Ortega",
+            "studentMajor": "Biology (B.S.)",
+            "projectType": "Biology",
+            "facultyAdvisor": "Dr. Salwa Al-Noori",
+            "posterLink": "./posters/bio/Nathasya Poster.jpg"
+        },
+        {
+            "time": "10:45 AM - 11:05 AM",
+            "projectId": "bio-1045-1",
+            "title": "Extraction of Rose Hips and Analysis of Ascorbic Acid and Iron Levels",
+            "studentName": "Anahid Dalakian",
+            "studentMajor": "Biology (B.S.)",
+            "projectType": "Biology",
+            "facultyAdvisor": " Dr. Salwa Al-Noori",
+            "posterLink": "./posters/bio/Vlad Niakhi Poster.png"
+        },
+        {
+            "time": "10:45 AM - 11:05 AM",
+            "projectId": "bio-1045-2",
+            "title": "Extraction of Rose Hips and Analysis of Ascorbic Acid and Iron Levels",
+            "studentName": "Junggil Hong",
+            "studentMajor": "Biology (B.S.)",
+            "projectType": "Biology",
+            "facultyAdvisor": " Dr. Salwa Al-Noori",
+            "posterLink": "./posters/bio/Vlad Niakhi Poster.png"
+        },
+        {
+            "time": "10:45 AM - 11:05 AM",
+            "projectId": "bio-1045-3",
+            "title": "Extraction of Rose Hips and Analysis of Ascorbic Acid and Iron Levels",
+            "studentName": "Vlad Niakhi",
+            "studentMajor": "Biology (B.S.) / Neuroscience Minor",
+            "projectType": "Biology",
+            "facultyAdvisor": " Dr. Salwa Al-Noori",
+            "posterLink": "./posters/bio/Vlad Niakhi Poster.png"
+        },
+        {
+            "time": "11:15 AM - 11:40 AM",
+            "projectId": "bio-1115-1",
+            "title": "Caws for Alarm: How do American Crow calls differ between mobbing events and pre-roost aggregations?",
+            "studentName": "Jacob Barger",
+            "studentMajor": "Biology (B.S.) / Neuroscience Minor",
+            "projectType": "Biology",
+            "facultyAdvisor": "Dr. Doug Wacker ",
+            "posterLink": "./posters/bio/Nicole Knuebel Poster.png"
+        },
+        {
+            "time": "11:15 AM - 11:40 AM",
+            "projectId": "bio-1115-2",
+            "title": "Caws for Alarm: How do American Crow calls differ between mobbing events and pre-roost aggregations?",
+            "studentName": "Spencer Chang",
+            "studentMajor": "Biology (B.S.) / Neuroscience Minor",
+            "projectType": "Biology",
+            "facultyAdvisor": "Dr. Doug Wacker ",
+            "posterLink": "./posters/bio/Nicole Knuebel Poster.png"
+        },
+        {
+            "time": "11:15 AM - 11:40 AM",
+            "projectId": "bio-1115-3",
+            "title": "Caws for Alarm: How do American Crow calls differ between mobbing events and pre-roost aggregations?",
+            "studentName": "Dylan Deeg",
+            "studentMajor": "Biology (B.S.)",
+            "projectType": "Biology",
+            "facultyAdvisor": "Dr. Doug Wacker ",
+            "posterLink": "./posters/bio/Nicole Knuebel Poster.png"
+        },
+        {
+            "time": "11:15 AM - 11:40 AM",
+            "projectId": "bio-1115-4",
+            "title": "Caws for Alarm: How do American Crow calls differ between mobbing events and pre-roost aggregations?",
+            "studentName": "Nikki Kneubel",
+            "studentMajor": "Biology (B.S.)",
+            "projectType": "Biology",
+            "facultyAdvisor": "Dr. Doug Wacker ",
+            "posterLink": "./posters/bio/Nicole Knuebel Poster.png"
+        },
+        {
+            "time": "11:15 AM - 11:40 AM",
+            "projectId": "bio-1115-5",
+            "title": "Caws for Alarm: How do American Crow calls differ between mobbing events and pre-roost aggregations?",
+            "studentName": "Elijah Phan",
+            "studentMajor": "Biology (B.S.)",
+            "projectType": "Biology",
+            "facultyAdvisor": "Dr. Doug Wacker ",
+            "posterLink": "./posters/bio/Nicole Knuebel Poster.png"
+        },
+        {
+            "time": "11:15 AM - 11:40 AM",
+            "projectId": "bio-1115-6",
+            "title": "Caws for Alarm: How do American Crow calls differ between mobbing events and pre-roost aggregations?",
+            "studentName": "Alexandria Pinney",
+            "studentMajor": "Biology (B.S.)",
+            "projectType": "Biology (B.S.) / Ecological Restoration Minor",
+            "facultyAdvisor": "Dr. Doug Wacker ",
+            "posterLink": "./posters/bio/Nicole Knuebel Poster.png"
+        },
+        {
+            "time": "11:40 AM - 12:05 PM",
+            "projectId": "bio-1140-1",
+            "title": "To Mob or not to Mob?: That is the Question",
+            "studentName": "Anna Belova-Torres",
+            "studentMajor": "Biology (B.S.) / Neuroscience Minor",
+            "projectType": "Biology",
+            "facultyAdvisor": "Dr. Doug Wacker",
+            "posterLink": "./posters/bio/Anna Belova.jpg"
+        },
+        {
+            "time": "11:40 AM - 12:05 PM",
+            "projectId": "bio-1140-2",
+            "title": "To Mob or not to Mob?: That is the Question",
+            "studentName": "Daniel Greben",
+            "studentMajor": "Biology (B.S.)",
+            "projectType": "Biology",
+            "facultyAdvisor": "Dr. Doug Wacker",
+            "posterLink": "./posters/bio/Anna Belova.jpg"
+        },
+        {
+            "time": "11:40 AM - 12:05 PM",
+            "projectId": "bio-1140-3",
+            "title": "To Mob or not to Mob?: That is the Question",
+            "studentName": "Aliyah Hurley",
+            "studentMajor": "Biology (B.S.)",
+            "projectType": "Biology",
+            "facultyAdvisor": "Dr. Doug Wacker",
+            "posterLink": "./posters/bio/Anna Belova.jpg"
+        },
+        {
+            "time": "11:40 AM - 12:05 PM",
+            "projectId": "bio-1140-4",
+            "title": "To Mob or not to Mob?: That is the Question",
+            "studentName": "Madeline Ronneberg",
+            "studentMajor": "Biology (B.S.)",
+            "projectType": "Biology",
+            "facultyAdvisor": "Dr. Doug Wacker",
+            "posterLink": "./posters/bio/Anna Belova.jpg"
+        },
+        {
+            "time": "11:40 AM - 12:05 PM",
+            "projectId": "bio-1140-5",
+            "title": "To Mob or not to Mob?: That is the Question",
+            "studentName": "Ben Shaver",
+            "studentMajor": "Biology (B.S.) / Neuroscience Minor",
+            "projectType": "Biology",
+            "facultyAdvisor": "Dr. Doug Wacker",
+            "posterLink": "./posters/bio/Anna Belova.jpg"
+        },
+        {
+            "time": "11:40 AM - 12:05 PM",
+            "projectId": "bio-1140-6",
+            "title": "To Mob or not to Mob?: That is the Question",
+            "studentName": "Austin Tran",
+            "studentMajor": "Biology (B.S.)",
+            "projectType": "Biology",
+            "facultyAdvisor": "Dr. Doug Wacker",
+            "posterLink": "./posters/bio/Anna Belova.jpg"
+        },
+        {
+            "time": "12:05 PM - 12:20 PM",
+            "projectId": "bio-1205-1",
+            "title": "The Fall Transition's Effect on the Distribution of Dissolved Oxygen and the Marine Heat Wave in the Salish Sea ",
+            "studentName": "Connor Trentman",
+            "studentMajor": "Biology (B.S.) / Chemistry Minor",
+            "projectType": "Biology",
+            "facultyAdvisor": "Dr. Jan A. Newton",
+            "posterLink": "./posters/bio/Connor Trentman Poster.png"
+        },
+        {
+            "time": "12:30 PM - 12:45 PM",
+            "projectId": "bio-1230-1",
+            "title": "Analyzing the Role of EFEMP1 on Genetic Risk for Osteoporosis",
+            "studentName": "Prabhat Aluri",
+            "studentMajor": " Mathematics (B.S.)",
+            "projectType": "Biology",
+            "facultyAdvisor": "Dr. Ronald Kwon",
+            "posterLink": "./posters/bio/Prabhat Aluri Poster.png"
+        },
+        {
+            "time": "12:45 PM - 1:00 PM",
+            "projectId": "bio-1245-1",
+            "title": "Discovering Novel Inhibitors of Type II Diabetes Using De Novo Ligand Design",
+            "studentName": "Joanna Tai",
+            "studentMajor": "Biology (B.S.)",
+            "projectType": "Biology",
+            "facultyAdvisor": "Dr. Peter Anderson",
+            "posterLink": "./posters/bio/Joanna Tai Poster_page-0001.jpg"
+        },
+        {
+            "time": "1:00 PM - 1:15 PM",
+            "projectId": "bio-100-1",
+            "title": "Using De Novo Drug Design for the Theoretical Discovery of Potential Glioblastoma Treatments Active Ingredients",
+            "studentName": "Saxton Sykes",
+            "studentMajor": "Biology (B.S.) / Chemistry Minor",
+            "projectType": "Project Type",
+            "facultyAdvisor": "Dr. Peter Anderson",
+            "posterLink": "./posters/bio/Saxton Sykes Poster_page-0001.jpg"
+        },
+        {
+            "time": "1:15 PM - 1:30 PM",
+            "projectId": "bio-115-1",
+            "title": "Bursting Activity across Simulated Neural Networks",
+            "studentName": "Natalie Gonzales",
+            "studentMajor": "Biology (B.S.) / Neuroscience Minor",
+            "projectType": "Biology",
+            "facultyAdvisor": "Dr. Michael Stiber",
+            "posterLink": "./posters/bio/Natalie Gonzales_Presentation Title Slide.JPG"
+        }
+        
+    ]
+}

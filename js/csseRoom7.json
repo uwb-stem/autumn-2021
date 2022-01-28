@@ -1,0 +1,114 @@
+{
+    "csse": [
+        {
+            "time": "12:30 PM - 12:45 PM",
+            "projectId": "csse-7-1230",
+            "title": "Playing Checkers with Deep Q Learning",
+            "studentName": "Riley Buck",
+            "studentMajor": "CSSE",
+            "projectType": "Indiviual Project - Student Defined",
+            "facultyAdvisor": "Dr. Bill Erdly",
+            "posterLink": "./posters/csse/Riely Joseph Buck.jpg",
+            "abstract": "The purpose of this Capstone was to create a Deep Q-Learning Artificial Neural Network that would be able to play, learn, and win a game of Checkers with a high rate of success.\n\nGameplaying Artificial Intelligence, and more specifically, Deep Learning Gameplaying is a very important subfield in machine learning. Many of the major breakthroughs in Artificial Neural Networks and Machine Learning have come from the Deep Learning projects designed to win and compete in board and video games. When Google created Alpha Go, many of the top machine learning scientists were employed to create the program. As it turns out, board and video games provide a unique platform for machine learning. The projects like Google’s AlphaGo and OpenAI’s Dota 2 project inspired me to attempt creating my own Deep Learning application on one of my favorite games: Checkers.\n\nTo do this I used a Deep Q-Learning architecture known as a Double Deep Q Network. This was implemented using a four-part approach: Receiving input and executing actions, creating the Neural Network and its components, implementing Q-Learning and Experience Replay into the Network, and experimenting and testing the network with various hyperparameters. I chose this specific architecture because I have had experience with Q-learning and have not seen this implementation done before in the game of Checkers. My main goal was to get my network a win rate, or winning percentage, of 50% or better. By the end of the project my neural network was winning at a 80.4%"        
+        },
+        {
+            "time": "12:45 PM - 1:00 PM",
+            "projectId": "csse-7-1245",
+            "title": "Larvol Software Development Internship",
+            "studentName": "Daniel Mar",
+            "studentMajor": "CSSE",
+            "projectType": "Sponsored Internship - LARVOL",
+            "facultyAdvisor": "Dr. Bill Erdly",
+            "posterLink": "./posters/csse/Daniel Mar.png",
+            "abstract": "LARVOL offers SaaS business intelligence solutions for researchers working in the life sciences. LARVOL’s cancer trial data platform, CLIN, was the setting for my most impactful project. \n\nThe trial search UI in CLIN provides users a free-text field wherein they can write any keywords to further filter their search result. The natural issue that crops up with searching for exact matches is that two users will often be looking for the same results but choose different keywords in their search.\n\nWe stand to significantly improve user experience if we can find more of the results they’re looking for. In short, we want to be conducting something closer to semantic search and in our case where users only search a few words and those words are drawn from a small oncology dictionary, we will improve results quickly as we gather the most common synonyms.\n\nConfiguring an Algolia search index with synonyms gets us results very similar to the SQL engine searching the trial data directly. However, the searches through Algolia are near instant and it has a convenience advantage as you don’t need to put any keyword in any particular field – you just type. The jury is still out on whether including more poor-quality matches (by matching on postfix for example) could have implications for other parts of CLIN that are still cooking. \n\nI believe my current job is to bring another team member up to speed on all the work that was done so the blueprint for using it is there should they want it.\n\nWhile CLIN’s free-text search is my impactful project for LARVOL, I spent more time on another project before CLIN search had work for me. The Head of HR wanted to get PTO requests reviewed more quickly and tasked me to make it possible for managers to review and approve/deny their assigned requests from Microsoft Teams. \n\nIt is currently unclear if this project will be rolled out in production given internal changes in the company. That being said, the project remains a valuable learning opportunity for me. I became deeply familiar with Microsoft's ecosystem and how to use modern enterprise software solutions which will surely prove useful wherever my Computer Science path takes me. I also gained a much deeper understanding of a new industry language (C#) and learned how to interface with both engineers and nontechnical employees of the company to accomplish this task."        
+        },
+        {
+            "time": "1:00 PM - 1:15 PM",
+            "projectId": "csse-7-100",
+            "title": "Sultan School District Internship: Database Management for a Student Information System (SIS)",
+            "studentName": "Nickolas Naslund",
+            "studentMajor": "CSSE",
+            "projectType": "Sponsored Internship - Sultan School District",
+            "facultyAdvisor": "Dr. Bill Erdly",
+            "posterLink": "./posters/csse/Nickolas David Naslund.png",
+            "abstract": "For my Capstone project, I was an intern for the IT department of the Sultan School District, helping to manage their student information system (SIS).\n\nI grew up in Sultan, WA and saw this as a great opportunity to help give back to the community that has supported me over the years. Being a small district, the IT department frequently has a shortage of manpower and resources. Dave Moon has been the IT director for over 20 years and has been my computer and technology mentor for many years now. When I told him I needed a project to finish out my CSSE degree, he told me I could leverage the SQL skills I gained from CSS 475 to help him make updates to the district’s student database.\n\nThe district uses an SIS system called PowerSchool, which operates on a customized Oracle SQL engine. Dave knew where most of the data was stored in the system, so my job was to write the SQL queries to help him generate meaningful reports from this data. I wrote automated reports for things such as historic classroom sizes, student lunch balances, checked out IT equipment, and enrollment in special needs programs, alongside a handful of day-to-day requests to find something in the system that a teacher or administrator had requested. My reports have helped the district save time, money, and have fewer errors in their district reporting to the state of Washington.\n\nI got practice interfacing with “customers” (teachers/admin) and seeing how they used technology to monitor and meet their students’ needs. This was my first experience with real-time development, where my reports were being used as soon as I was finished with them and even received immediate feedback on improvements or changes. I was able to leverage my internship experience working with PowerSchool to land a support engineer position with BrightArrow, one of the vendors that the district employs to handle mass communications through PowerSchool. I’m looking forward to starting my new job in January and getting to further develop the skills I have been cultivating this quarter interning for Dave and the school district."        
+        },
+        {
+            "time": "1:15 PM - 1:30 PM",
+            "projectId": "csse-7-115",
+            "title": "Rate My Course",
+            "studentName": "Jace Yoon",
+            "studentMajor": "CSSE",
+            "projectType": "Individual Project - Student Defined",
+            "facultyAdvisor": "Dr. Bill Erdly",
+            "posterLink": "./posters/csse/Jace Yoon.png",
+            "abstract": "Rate My Course was developed with the intent to help new CSS students in UWB get information about the CSS courses. \n\nAs someone knew about the website called “Rate My Professor”, my project is based on this website, but I wanted to change the students’ aspect opposite way. \n\nI also used this website when I was in my junior year right after getting into the CSSE program but after taking some classes, I realized something important that if you want to find the passion from the class and learn about it deeper, you need to follow the class what you want to learn not the professor’s personality or teaching style.\n\nRate My Course website will help the new UWB students to build their own curriculums with their taste and what kind of skill set they want to build without any time-consuming. \n\nMy first approach to planning this project was asking myself and my classmates about how you were satisfied to take the classes and what made you think it was helpful to your personal goal.\n\nThen I did start with building the front end with the necessary information to choose the class such as what was the overall experience of the class, what kind of skill set you learned, and if there any pros and cons about the class.\n\nAfter building the front end, I successfully worked on the back and be able to log in or register the user with a google account then let the user search, make, edit, delete the reviews. However, due to the time limitation and family emergency, there are some incomplete features left I want to add in the future.\n\nThis project is still a work in progress and the goal in the future, I want to build more options for reviewing classes such as ranking, tag system, and using the UW API to log in not only the google account."        
+        },
+        {
+            "time": "1:30 PM - 1:45 PM",
+            "projectId": "csse-7-130",
+            "title": "QuickCheck: Vision Screening App",
+            "studentName": "John Pham",
+            "studentMajor": "CSSE",
+            "projectType": "UWB CSS Faculty Research",
+            "facultyAdvisor": "Dr. Bill Erdly",
+            "posterLink": "./posters/csse/Johnny Pham.png",
+            "abstract": "The Educating Young Eyes Center is an organization with the goal of developing innovative technology that aims to advocate and improve vision assessment and vision therapy of children. For my capstone project, I worked as a developer focusing on QuickCheck, a mobile application that provides vision screening tailored towards children. This app aims to be an easily accessible, cost-efficient, and interactive screening tool used by parents and school nurses to quickly assess a child’s vision performance.\n\nWhen joining the dev team, my first main objective was to understand how QuickCheck works under the hood, diving into the underlying structure made with the Unity engine and C# scripts. By gaining a good understanding of the project, I could then see what aspects needed to be worked on to prepare the app for release. This led me to working on implementing updated user interface designs for the iOS version of QuickCheck, in order to follow App Store requirements. I was able to add functionality to the page designs provided by the UI/UX team, as well as providing a few revisions of my own. These pages include the app’s home screen, input attributes page, and screening instructions.\n\nAnother objective was to document the backup procedure for EYE Center’s AWS cloud-based data portal. This derived from how QuickCheck and other apps hosted on the data portal require careful security controls around storing Protected Health Information to become HIPAA certified. After doing research on AWS EC2 data storage and HIPAA regulations regarding backups, I was able to create and document a routinely automated backup plan to help meet requirements.\n\nWorking on this capstone was a valuable experience that gave me perspective on what it’s like to contribute to a large-scale software project within an organization. I learned a lot about mobile development, as well as cloud computing resources and management. I was also able to improve my team collaboration and communication skills while working within the software development lifecycle. Currently, QuickCheck is wrapping up development and I look forward to seeing the project through a beta version release."        
+        },
+        {
+            "time": "1:45 PM - 2:00 PM",
+            "projectId": "csse-7-145",
+            "title": "Automating Validation of Financial Controls",
+            "studentName": "Hafsa Ali",
+            "studentMajor": "CSSE",
+            "projectType": "Sponsored Internship - Amazon",
+            "facultyAdvisor": "Dr. Bill Erdly",
+            "posterLink": "./posters/csse/Hafsa Ali.png",
+            "abstract": "The Inventory Controllership team is part Amazon’s Fulfillment Technology and is responsible for managing physical assets. A key aspect of this is ensuring compliance with relevant financial reporting regulations. This is important for maintaining the trust of customers which if breached can have negative implications for the company both financially and legally. To ensure that financial data reporting comply with the regulatory laws the company must do a quarterly check to prove this. This process involves manually querying the production databases for records of financial transactions and manually validating the data and providing a report of the result. This process has many drawbacks such as lack of efficiency, low coverage, and is prone to human error. To prevent these issues related to manual validation and increase confidence in the result its key to automate the process. As an intern my responsibility was to design this automated validation workflow and implement it using Java and  AWS tools. This included extracting data from the databases, validating the data based on a set of metrics, and publishing a report of the results at the end. Overall my internship experience was positive as I had the opportunity to  experience what it is like to work as a software development engineer in the industry. I gained a depth of experience and insight while going through the onboarding process, implementing my design, and navigating the challenges I experienced. This was an invaluable experience, and the skills and knowledge I gained will be useful for my personal and professional ventures going forward."        
+        },
+        {
+            "time": "2:00 PM - 2:15 PM",
+            "projectId": "csse-7-200",
+            "title": "Panasonic Enhanced Productivity Tracking Application",
+            "studentName": "Christopher Bailey",
+            "studentMajor": "CSSE",
+            "projectType": "Sponsored Internship - Panasonic Avionics Coporation",
+            "facultyAdvisor": "Dr. Jeffrey Kim",
+            "posterLink": "./posters/csse/Christopher Bailey.jpg",
+            "abstract": "Hello I am Christopher Bailey and I am an Avionics Repair Technician at Panasonic Avionics Corporation.The Panasonic Enhanced Production Tracking Application is an Android app that I developed for my employer. PEPTA was developed in order to provide both management and engineering more accurate time keeping data on units in the repair shop. Our current tracking system RAMCO has often been inadequate in fulfilling this role. My fellow technicians and I have been frustrated by RAMCO for years. By developing this app my hope was to ease that frustration as well. When I finally completed this version of the app, It provided my management team with data on where the unit was in the shop and how long it was there for. They were encouraged by my results and have considered giving me time on the clock to further improve upon the base features since I had developed this app during my free time since I still had to work as a tech during the day. \n\nThis project was my first attempt at making an Android app and my first time using Android Studio. It was the first time I used a full featured IDE for development. This was the first time I planned and created an application 100% from scratch. "        
+        }, 
+        {
+            "time": "2:15 PM - 2:30 PM",
+            "projectId": "csse-7-215",
+            "title": "Software Engineering Internship",
+            "studentName": "Jon Caceres",
+            "studentMajor": "CSSE",
+            "projectType": "Sponsored Internship - Fall Safety / Freeus",
+            "facultyAdvisor": "Dr. Jeffrey Kim",
+            "posterLink": "./posters/csse/Jon Caceres.jpg",
+            "abstract": "FallSafety is a startup that develops and maintains a suite of enterprise applications revolving around workplace safety. These applications fall under the FallSafety umbrella. During my internship and project, I worked on all aspects of FallSafety, from mobile application development on iOS, Android, and Apple Watch, to web development (React, Node.js, Vue) and database management. I will discuss in detail how I helped implement a new feature called the Safety Plan and its first safety protocol called Heat Stress on the WorkerSafety Pro application. The Safety Plan is an all-encompassing feature that offers multiple safety protocols to help further protect workers. Heat Stress is its first protocol and it gives workers a better understanding of extreme weather conditions to keep themselves safe. This protocol was highly requested by existing clients of the FallSafety enterprise. Thanks to the applied knowledge and skills I learned during my education and internship which include software development lifecycles, project methodologies, and testing techniques, I was able to successfully complete this project. After completion, the Safety Plan feature and Heat Stress protocol was deployed to the latest update on the App Store on iOS. Hundreds of clients under FallSafety are now using the Safety Plan and Heat Stress protocol across the United States. In addition, the experience I gained during this project has helped me grow as a professional software engineer by giving me real life experience working with other accomplished engineers and designers. "        
+        },
+        {
+            "time": "2:30 PM - 2:45 PM",
+            "projectId": "csse-7-230",
+            "title": "Interpreter Job Board Software",
+            "studentName": "Morgan Du Bois",
+            "studentMajor": "CSSE",
+            "projectType": "Individual Project - Student Defined",
+            "facultyAdvisor": "Dr. Jeffrey Kim",
+            "posterLink": "./posters/csse/Morgan Du Bois.png",
+            "abstract": "This software was created as a student guided project for fall quarter 2021 in CSS 497. It was designed and created by Morgan Du Bois, the faculty advisor was Dr. Jefferey Kim, and the advisors were Milena Calderari-Waldron and Eric Du Bois. This project was created to address the problems with interpreting software where the current software that is available for use does not contain the needed features to create a smooth and efficient process for job posters and interpreters. \n\nTo address the problems, a new software prototype was created that implemented specific features to better serve and address the needs of job posters and interpreters. Over the course of the fall quarter, a software prototype was designed and then implemented into Microsoft Access, using its features to implement a GUI. Visual Basic for Applications and a MySQL database made up the back end of the software. \n\nThe software was designed to be rapidly prototyped so that the needs of interpreters, and the needs of job posters wanting interpreting services could be met. The ability to easily change the software allowed it to be revised quickly as needed. By choosing the software that was used, it allowed changed to features easily as well as the option to take the current prototype and change it to more traditional languages such as CSS and HTML to further expand the software and turn it into a fully online web application. "        
+        },
+        {
+            "time": "2:45 PM - 3:00 PM",
+            "projectId": "csse-7-245",
+            "title": "Software Engineering Internship",
+            "studentName": "Sarah Wehelie",
+            "studentMajor": "CSSE",
+            "projectType": "Sponsored Internship - T-Mobile",
+            "facultyAdvisor": "Dr. Jeffrey Kim",
+            "posterLink": "./posters/csse/Sarah Wehelie.png",
+            "abstract": "This capstone report will focus on my internship experience at T-Mobile as a Software Engineer Intern over Summer 2021. During my internship, I was given the initiative to work on the ITSM-Notifier Dashboard. Splunk dashboards provide efficiency by holding summarized data in an organized form as well as data visualizations. This dashboard needed to be created because of client impacting issues regarding the format of the messaging system the ITSM-Notifier application provides. The lead developers and architects requested for there to be proper visualizations of the logs being inserted into the Splunk database. Because of the experiences I gained through my coursework and learned during my internship, I was able to successfully complete the project. I had to keep up with the team’s constant maintenance and changes made to the application while also maintaining the dashboard and was able to give the team a few issues I found through the Splunk logs. The dashboard I created was able to give developers a more efficient way for them to look through the Splunk logs and find irregularities within the application a lot faster. The results helped the developers in the team get to the root of the problem a lot more quickly and efficiently, and this helped the team meet the requirements needed for the framework."        
+        }
+    ]
+}

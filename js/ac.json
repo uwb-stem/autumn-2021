@@ -1,0 +1,164 @@
+{
+    "ac": [
+        {
+            "time": "12:35 PM - 1:00 PM",
+            "projectId": "ac-1235-1",
+            "title": "Integration of Tools to Canvas",
+            "studentName": "Hemanth Kalathil",
+            "studentMajor": "Applied Computing / Business Administration Minor",
+            "projectType": "Applied Computing",
+            "facultyAdvisor": "Mr. Mark Kochanski",
+            "posterLink": "./posters/ac/Kalathil, Hemanth.png"
+        },
+        {
+            "time": "12:35 PM - 1:00 PM",
+            "projectId": "ac-1235-2",
+            "title": "Vivozart - Freelance Music Website",
+            "studentName": "Amal Manohar",
+            "studentMajor": "Applied Computing / Business Administration Minor",
+            "projectType": "Applied Computing",
+            "facultyAdvisor": "Mr. Mark Kochanski",
+            "posterLink": "./posters/ac/Manohar, Amal.png"
+        },
+        {
+            "time": "12:35 PM - 1:00 PM",
+            "projectId": "ac-1235-3",
+            "title": "Spice Hunt",
+            "studentName": "Dinh Liu",
+            "studentMajor": "Applied Computing",
+            "projectType": "Applied Computing",
+            "facultyAdvisor": "Mr. Mark Kochanski",
+            "posterLink": "./posters/ac/Liu, Dinh.png"
+        },
+        {
+            "time": "12:35 PM - 1:00 PM",
+            "projectId": "ac-1235-4",
+            "title": "Secretary Bot",
+            "studentName": "Kevin Tu",
+            "studentMajor": "Applied Computing / Business Administration Minor",
+            "projectType": "Applied Computing",
+            "facultyAdvisor": "Mr. Mark Kochanski",
+            "posterLink": "./posters/ac/Tu, Kevin.png"
+        },
+        {
+            "time": "1:00 PM - 1:25 PM",
+            "projectId": "ac-100-1",
+            "title": "Secretary Bot",
+            "studentName": "Warren Robertson",
+            "studentMajor": "Applied Computing",
+            "projectType": "Applied Computing",
+            "facultyAdvisor": "Mr. Mark Kochanski",
+            "posterLink": "./posters/ac/Robertson, Warren .png"
+        },
+        {
+            "time": "1:00 PM - 1:25 PM",
+            "projectId": "ac-100-2",
+            "title": "Spice Hunt",
+            "studentName": "Mustafa Sabir",
+            "studentMajor": "Applied Computing / Business Entrepreneurship Minor",
+            "projectType": "Applied Computing",
+            "facultyAdvisor": "Mr. Mark Kochanski",
+            "posterLink": "./posters/ac/Sabir, Mustafa.png"
+        },
+        {
+            "time": "1:00 PM - 1:25 PM",
+            "projectId": "ac-100-3",
+            "title": "Computer Policy on Small Businesses",
+            "studentName": "Shane Ruangdet",
+            "studentMajor": "Applied Computing / Policy Studies Minor",
+            "projectType": "Applied Computing",
+            "facultyAdvisor": "Mr. Mark Kochanski",
+            "posterLink": "./posters/ac/Ruangdet, Shane.png"
+        },
+        {
+            "time": "1:00 PM - 1:25 PM",
+            "projectId": "ac-100-4",
+            "title": "Personal Wearable Fitness Devices",
+            "studentName": "Ivan Lopez",
+            "studentMajor": "Applied Computing / Applied Computing Minor",
+            "projectType": "Applied Computing",
+            "facultyAdvisor": "Mr. Mark Kochanski",
+            "posterLink": "./posters/ac/Lopez, Ivan.png"
+        },
+        {
+            "time": "1:25 PM - 1:50 PM",
+            "projectId": "ac-125-1",
+            "title": "College Connect Application",
+            "studentName": "Najib Abdi",
+            "studentMajor": "Applied Computing / Business Administration Minor",
+            "projectType": "Applied Computing",
+            "facultyAdvisor": "Mr. Mark Kochanski",
+            "posterLink": "./posters/ac/Abdi, N .png"
+        },
+        {
+            "time": "1:25 PM - 1:50 PM",
+            "projectId": "ac-125-2",
+            "title": "Deconstructing Economic Forecasting",
+            "studentName": "Kaevon Soleman",
+            "studentMajor": "Applied Computing / Economics Minor",
+            "projectType": "Applied Computing",
+            "facultyAdvisor": "Mr. Mark Kochanski",
+            "posterLink": "./posters/ac/Soleman, Kaevon.png"
+        },
+        {
+            "time": "1:25 PM - 1:50 PM",
+            "projectId": "ac-125-3",
+            "title": "Introducing the use of A.I. in genetics",
+            "studentName": "Heesoo Park",
+            "studentMajor": "Applied Computing / Chemistry Minor",
+            "projectType": "Applied Computing",
+            "facultyAdvisor": "Mr. Mark Kochanski",
+            "posterLink": "./posters/ac/Park, Heesoo.png"
+        },
+        {
+            "time": "1:25 PM - 1:50 PM",
+            "projectId": "ac-125-4",
+            "title": "Usability Studies of the Software Engineering Studio Class",
+            "studentName": "Ethan Hidesato Yamashita",
+            "studentMajor": "Applied Computing",
+            "projectType": "Applied Computing",
+            "facultyAdvisor": "Mr. Mark Kochanski",
+            "posterLink": "./posters/ac/Yamashita, Ethan.png"
+        },
+        {
+            "time": "1:50 PM - 2:15 PM",
+            "projectId": "ac-150-1",
+            "title": "Dynamics and Adaptation in Video Games",
+            "studentName": "Ryan Collins",
+            "studentMajor": "Applied Computing",
+            "projectType": "Applied Computing",
+            "facultyAdvisor": "Mr. Mark Kochanski",
+            "posterLink": "./posters/ac/Collins, Ryan.png"
+        },
+        {
+            "time": "1:50 PM - 2:15 PM",
+            "projectId": "ac-150-2",
+            "title": "Concert Recommendations and Human-Centered Design",
+            "studentName": "Jonathan Walzer",
+            "studentMajor": "Applied Computing",
+            "projectType": "Applied Computing",
+            "facultyAdvisor": "Mr. Mark Kochanski",
+            "posterLink": "./posters/ac/Walzer, Jonathan.png"
+        },
+        {
+            "time": "1:50 PM - 2:15 PM",
+            "projectId": "ac-150-3",
+            "title": "Ice Smashers",
+            "studentName": "Weston Goggins",
+            "studentMajor": "Applied Computing / Business Administration Minor",
+            "projectType": "Applied Computing",
+            "facultyAdvisor": "Mr. Mark Kochanski",
+            "posterLink": "./posters/ac/Goggins, Weston.png"
+        },
+        {
+            "time": "1:50 PM - 2:15 PM",
+            "projectId": "ac-150-4",
+            "title": "Sport Scores with Voice in VR",
+            "studentName": "Shane White",
+            "studentMajor": "Applied Computing",
+            "projectType": "Applied Computing",
+            "facultyAdvisor": "Mr. Mark Kochanski",
+            "posterLink": "./posters/ac/White, shane.png"
+        }
+    ]
+}

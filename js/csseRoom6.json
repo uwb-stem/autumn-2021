@@ -1,0 +1,125 @@
+{
+    "csse": [
+        {
+            "time": "12:30 PM - 12:45 PM",
+            "projectId": "csse-6-1230",
+            "title": "House Price Prediction",
+            "studentName": "Hsin-Yu Chin",
+            "studentMajor": "CSSE",
+            "projectType": "Individual Project - Student Defined",
+            "facultyAdvisor": "Dr. Min Chen",
+            "posterLink": "./posters/csse/HsinYu Chin.jpg",
+            "abstract": "The purpose of this capstone project is to learn about data collecting and analysis the data and based on data analysis techniques to combined with a real-world based application. For this project, I chose to collect data from the Greater Seattle Area house prices which is more easily to understand that how it goes through in our neighborhood. It allows me to incorporate a lot of technologies and knowledge I have learned at the University of Washington and from our real life.\n\n From the past 2 years, during the pandemic, it is surprised that even though the increase of unemployment rate, the house prices in the Greater Seattle Area increased dramatically. There are different possible variables might also impact the house prices. In order to know more about how people might consider when they buy a house. I asked some people who bought house here and a real estate agent about this. It is straightforward that a huge amount of on sale house will be posted on a website, Zillow. It would provide the basic data of house. Which I could use web crawling to get the data, such as house listing price, selling price, sold date, square feet, lot size etc. Furthermore, I collected the potential external data such as population, income, household size etc. which I think those will also impact the house price in that area. Since some of the variables might not be the significant relevant to the house price, I need to clean the data. By using feature extraction to delete those variables, prediction of the house price will be more accurate and trustable. The last thing I have done so far is the machine learning to use machine learning to get the model of predict the house price. "        
+        },
+        {
+            "time": "12:45 PM - 1:00 PM",
+            "projectId": "csse-6-1245",
+            "title": "Automated Processes Tool",
+            "studentName": "Poppy La",
+            "studentMajor": "CSSE",
+            "projectType": "Sponsored Internship - Sirrus 7",
+            "facultyAdvisor": "Dr. Min Chen",
+            "posterLink": "./posters/csse/Poppy La.png",
+            "abstract": "The project for my internship is to create a tool that can shorten the user’s process by controlling their data/team data or user’s data in multiple different API platforms. The tool is mainly aimed towards developers and administrators. The tool is able to automatically process multiple actions at multiple different modules from a plethora of services such as Gitlab, Salesforce, Slack and many more all in one click. By this, users can prevent redundancy in managing data (adding a member to all “developer” groups/projects in Gitlab, Slack,..for example) by setting their own data controlling rules on the tool. This will reduce errors by automatically applying all these changes all over the network.\n\nThe first challenge was learning and being proficient enough in Go programming language for back-end development. Along the way I have cultivated skills to work with JSON files, Docker, Webhooks and APIs. The first step in building the project was creating a sequence diagram and creating http endpoints for our local host to send the http request to Gitlab. Next was designing the database using postgreSQL. While developing the back-end, I also learnt how to develop the UI with React. We created some conditions and actions for the user to create their rules. Then I upgraded and added features to the tool so that it could also perform functions in Slack with http requests. Finally, the web application was published to Google Cloud Run.\n\nAt this stage, the project is at its final stretch, the UI, database, logic, back-end processes and core functionalities in the UI are live and running. The project has a very high growth potential as it can be expanded to integrate more services and include much more functionality. The development of this project was far quicker than our expectation from a group of inexperienced students.\n\nThis internship gave me a chance to experience working in a professional software development environment. I learned how to build a fully functional, highly scalable and innovative web application, how HTTP endpoints work and how to parse JSON files, fire webhooks from multiple APIs, work with complex database systems and so much more. I have learned and grown so much from my teammates and my mentor to collaborate with the teammates, code and organize my projects efficiently. "        
+        },
+        {
+            "time": "1:00 PM - 1:15 PM",
+            "projectId": "csse-6-100",
+            "title": "API Service Monitoring and Observability at T-Mobile",
+            "studentName": "Kolby Samson",
+            "studentMajor": "CSSE",
+            "projectType": "Sponsored Internship - T-Mobile",
+            "facultyAdvisor": "Dr. Min Chen",
+            "posterLink": "./posters/csse/Kolby M. Samson.jpg",
+            "abstract": "In an effort to move away from monolithic software products, T-Mobile has focused on the development of API microservices for their backend systems for the last several years. To support this effort, I worked with the API Center for Enablement (ACE) Team at T-Mobile on a new API gateway platform that would support thousands of API services. My work focused on implementing an observability and monitoring solution for this platform to enable software developers to easily view their deployed services and troubleshoot them when an error or incident occurred.\n\nTo implement this solution for the platform, I worked with many modern technologies across the observability and monitoring stack. This included creating performance metrics visualization dashboards using Prometheus and Grafana, which I applied to an anomaly detection project to automatically detect software service incidents and report them to software teams. In addition, I also worked to improve the logging system used for all software services on the platform to have much more granular information and allow for custom performance metrics to be exported to other monitoring tools. Finally, I worked on redesigning a system for analyzing the quality of API services (based on performance, security, reusability, etc.) to be completely automated and allow for developers to see how their services compared to others on the platform.\n\nAfter the completion of these projects, I was able to significantly reduce the mean time to detection (MTTD) of service errors on the platform, and subsequently the mean time to recover (MTTR) of these services. More specifically, my work impacts included reducing the noise of system alerts by over 80%, introducing several new dimensions to filter logs and metrics by, and saving over eight hours of manual work each quarter on API quality analysis. These improvements significantly supported the onboarding of new software services onto the platform with the knowledge that developers could easily observe and monitor their deployed services."        
+        },
+        {
+            "time": "1:15 PM - 1:30 PM",
+            "projectId": "csse-6-115",
+            "title": "Reduce Stress Full Stack Application",
+            "studentName": "Jawad Timzit",
+            "studentMajor": "CSSE",
+            "projectType": "Individual Project - Student Defined",
+            "facultyAdvisor": "Dr. Min Chen",
+            "posterLink": "./posters/csse/Jawad Timzit.jpg",
+            "abstract": "LARVOL offers SaaS Business Intelligence solutions for researchers working in the life sciences. LARVOL’s cancer trial data platform, CLIN, was the setting for my most impactful project. \n\nThe trial search in CLIN provides users a free-text field wherein they can write any keywords to further filter their search result. The natural issue that crops up with searching for exact matches is that two users will often be looking for the same results but choose different keywords in their search.\n\nWe stand to significantly improve user experience if we can find more of the results they’re looking for. In short, we want to be conducting something closer to semantic search and in our case where users only search a few words and those words are drawn from a small oncology dictionary, we will improve results quickly as we gather the most common synonyms.\n\nConfiguring an Algolia search index with synonyms gets us results very similar to the SQL engine searching the trial data directly. However, the searches through Algolia are near instant and it has a convenience advantage as you don’t need to put any keyword in any particular field – you just type. The jury is still out on whether including more poor-quality matches (by matching on postfix for example) could have implications for other parts of CLIN that are still cooking. \n\nI believe my current job is to bring another team member up to speed on all the work that was done so the blueprint for using it is there should they want it.\n\nWhile CLIN’s free-text search is my impactful project for LARVOL, I spent more time on another project before CLIN search had work for me. The Head of HR wanted to get PTO requests reviewed more quickly and tasked me to make it possible for managers to review and approve/deny their assigned requests from Microsoft Teams. \n\nAt the point where I was finishing up implementation and looking to do more live tests, the HR Head unfortunately left the company. It’s then that I began to realize there weren’t employees lining up for the opportunity to get pinged by a bot to review time-off requests as they arrive in Teams. I think the value of this project was entirely personal. I learned a new language, wrote a few thousand lines of code, and spent plenty of time refactoring and making design decisions."        
+        },
+        {
+            "time": "1:30 PM - 1:45 PM",
+            "projectId": "csse-6-130",
+            "title": "Software Egineering Internship for Tata Consultancy Services",
+            "studentName": "Saahil Vasdev",
+            "studentMajor": "CSSE",
+            "projectType": "Sponsored Internship - Tata Consultancy Services",
+            "facultyAdvisor": "Dr. Min Chen",
+            "posterLink": "./posters/csse/Saahil Vasdev.JPG",
+            "abstract": "Software testing is an essential phase of the software development life cycle. It is used to evaluate and verify the functionality of a software product or application. During my time at Tata Consultancy Services, there was a strong emphasis on ensuring that software is bug-free, efficient, and reliable for partners and clients.\n\n During my internship, I worked closely with other engineers at Tata Consultancy Services to learn the foundation and methods of Automation Testing. Using automation tools allows for high quality of software by integrating different types of testing such as Unit and User Interface Testing. With each iteration of testing, it is important to make sure that each test requirement is met or fixed to ensure that the software is working as intended. \n\nWhile I have signed a non-disclosure agreement on discussing the specifics of the project I worked on, my responsibilities involved creating and executing test scripts using an automation framework called Selenium. These test scripts were frequently written in Java where I was able to validate web application functionality through multiple different browsers and platforms. \n\nThe benefits of automation testing allow for more efficiency, consistency, and reliability. Automation testing compared to other testing methods such as manual testing, can save a tremendous amount of time thus leading to a faster time to market. This style of testing is frequently used to lessen expenses on the product due to using fewer resources. \n\nOverall, my time with Tata Consultancy Services was wonderful as I had an opportunity to learn different testing methodologies using the automation framework. I also had the opportunity to be a part of a larger-scale project that went through the full Software Development Life Cycle (SDLC) in an agile environment."        
+        }, 
+        {
+            "time": "1:45 PM - 2:00 PM",
+            "projectId": "csse-6-145",
+            "title": "Software Engineer Intern at T-Mobile",
+            "studentName": "Srikar Duggempudi",
+            "studentMajor": "CSSE",
+            "projectType": "Sponsored Internship - T-Mobile",
+            "facultyAdvisor": "Dr. Min Chen",
+            "posterLink": "./posters/csse/Srikar Reddy Duggempudi.JPG",
+            "abstract": "As an Intern on the Device Lifecycle Team at T-Mobile, I worked on a service that dealt with device returns. All T-Mobile products, such as smartphones, tablets, and wearables, have a lifecycle, from before they are purchased by a customer to when they are decommissioned or recycled. And when a T-Mobile device is returned, device dispositioning is used by DC45, a T-Mobile distribution center, to determine what to do with it next. \n\nTo perform device dispositioning, T-Mobile uses the ODM Scenario Service. This service determines the financial posting for every device at DC45 each time it is scanned. For example, if a T-Mobile smartphone was returned by a customer without going through a formal return process, a specific scenario will help give the correct credit back to the associated channels. With approximately 50 different possible scenarios, each defined by 10-15 criteria, I figured out that device return is a complex process. To classify scenarios, the service uses the IBM Operational Decision Manager, or ODM, which simplifies a company's business rules.\n\nWithin the internship project, I was tasked with developing an automated testing suite for this T-Mobile ODM Scenario Service. The goal of developing an automated test suite was to replace the tedious manual regression testing that is currently in place at the domain level for this ODM Scenario Service.\n\nWith the complete integration of the test automation suite, the service will be saving an estimated 1-2 business days’ worth of work for every change made to the scenarios. With 1 to 2 changes made per month, the test suite saves a significant amount of time for Supply Chain domain testers. This also translates to approximately $150,000-$200,000 saved annually. Finally, by removing manual regression testing at the domain level, the test coverage is increased, adding a layer of confidence when making changes to the scenarios, and allowing for these changes to be deployed to production in a timelier manner."        
+        },
+        {
+            "time": "2:00 PM - 2:15 PM",
+            "projectId": "csse-6-200",
+            "title": "Project Title",
+            "studentName": "Sonia Saravanan",
+            "studentMajor": "CSSE",
+            "projectType": "Sponsored Internship - TreeDots",
+            "facultyAdvisor": "Dr. Annuska Zolyomi ",
+            "posterLink": "./posters/csse/Sonia Saravanan.png",
+            "abstract": "Treedots is Asia’s first distributor to reduce food loss by reselling imperfect and surplus inventory to businesses and consumers. As a product management intern, I had the opportunity to reduce CO2 emission by reducing food wastage through multiple projects, primarily customer referrals and order disputes. As a result of the internship, I was exposed to multiple tools: Notion, Whimsical, ProductPlan, Figma, Slack, Jira and Balsamiq. \n\nI had the opportunity to work on a documentation about the role of a product manager in addition to testing the theoretical knowledge learnt on a business case study provided about increasing the visibility of how the users contribute to sustainable shopping by using Treedots. I studied referral systems from other applications to propose possible features Treedots should include for their referral system. Thereafter, I made low fidelity wireframes for the referral system on paper and Balsamiq, followed by user flow on Whimsical. For both customer referral and order disputes, I worked on description and acceptance criteria for multiple tickets on Jira as well as updated the product requirements document on Notion accordingly.\n\nAs part of an agile company, I was required to attend daily standups and weekly scrum meetings. Daily standups allowed me to pace my work while keeping track of what my colleagues in my team were working on. Similarly, the weekly scrum meetings provided me with an opportunity to learn from my manager about aspects to consider when sprint planning. "        
+        },
+        {
+            "time": "2:20 PM - 2:35 PM",
+            "projectId": "csse-6-220",
+            "title": "Database Modeling Web Tool",
+            "studentName": "Benjamin Lin",
+            "studentMajor": "CSSE",
+            "projectType": "UWB CSS Faculty Research",
+            "facultyAdvisor": "Mr. Mark Kochanski",
+            "posterLink": "./posters/csse/Benjamin Lin.png",
+            "abstract": "The Object Role Model (ORM) is a modelling technique for creating database models. It’s not as widely support as similar alternatives such as the Entity Role Model (ER). I worked on my own to prototype and develop a webpage for creating ORM style documents. \n\nThe purpose of this project was to create an updated database modelling tool to simplify designing database models and to enforce specific modelling rules. Since older tools like Visio modeler run on old operating systems (windows 98) and new ones don’t directly support ORM style documentation, such as Lucid Chart and diagrams.net. This project was intended to be an accessible alternative to these tools to cater more for ORM style documents and to enforce more document rules.\n\nI prototyped and created the initial webpage design for the database document creator. It currently supports ORM style documents and a framework has been added to support ER documents as well. I also was responsible for starting the research and implementation of unit tests into the project, as well as documenting the current state of the program.\n\nThe webpage is written in React. It uses another API called Konvas to render and handle the display of shapes. It also uses Material UI to render all additional side bars, headers, and menu style operations.\n\nOver the course of the project, I learned about React based web development and interactive 2D canvas rendering. Furthermore, I learned about the struggles of iterative development after constantly having to update the webpage to match new and changing requirements. After several refactors and design changes, documentation becomes important for keeping track of the current state of the project and for evaluating if it can match the required features. Furthermore, I gained additional experience on DevOps techniques and tools for supporting continuous development, and what steps are necessary to scale up a project. "        
+        },
+        {
+            "time": "2:35 PM - 2:50 PM",
+            "projectId": "csse-6-235",
+            "title": "Nepal Seattle Society's Website Revamp",
+            "studentName": "Kranti Paudyal",
+            "studentMajor": "CSSE",
+            "projectType": "Sponsored Internship - Nepal Seattle Society",
+            "facultyAdvisor": "Mr. Mark Kochanski",
+            "posterLink": "./posters/csse/Kranti Paudyal.png",
+            "abstract": "Websites have grown to be the most easily accessible sources to data and information in the 21st century and especially because of the global pandemic right now, most of the work and services going remote, every businesses and organizations required robust and reliable websites that could serve their purpose online and give access to the resources to their users. Nepal Seattle Society (NSS), a non-profit organization, aiming to bring all people from Nepali origin together in Washington state required a fully functioning, user friendly, service and resource oriented dynamic website to fulfill the requirement of demanding need and purposes of community members and other visitors. \n\nTo achieve the requirement and continue to serve the NSS members and other visitors, over the course of summer and fall, I worked with the IT professionals to upgrade the existing static website to a dynamic platform where numerous features were added. Users could have their own membership which helped give users access to information that is private within the organization. I worked on developing a business directory to the website that helped NSS members to offer their businesses and services to the whole community and even outsiders. As a result, businesses that serve authentic foods, clothes, jewelries and other services that represent nepali cultural diversity and other values got preserved, promoted and even fostered with a new platform of promotion. Another service that I worked on is “Resource Hub” which serves as a pool of documents and information that is publicly available. All the resources, documents, articles and other related information. Resource hub helped NSS to provide services and information remotely and did not have to rely on traditional office/event setting for access. \n\nThe research and work over the course helped NSS give more services to their members and got a significant boost in trying to promote, preserve, foster, and in overall, bring Nepalese closer together in a home away from home.  "        
+        },
+        {
+            "time": "2:50 PM - 3:05 PM",
+            "projectId": "csse-6-250",
+            "title": "Software Engineering Internship",
+            "studentName": "Ivan Tan",
+            "studentMajor": "CSSE",
+            "projectType": "Sponsored Internship - Amazon",
+            "facultyAdvisor": "Mr. Mark Kochanski",
+            "posterLink": "./posters/csse/Ivan Tan.png",
+            "abstract": "This summer, I worked as a Software Development Engineer Intern at Amazon on the AWS Silk team. Amazon Silk is a web browser available for customers on Fire Tablet, Fire TV, and Echo Show devices. My project was to extend the existing image banner system so that it can also display HTML data. By doing so, it has allowed for more banner use cases and made the system more flexible. HTML banners also have accessibility benefits when compared to image banners.\n\nThe work I did involved both frontend and backend development. For the frontend, I needed to extend the functionality so that the browser could display both the existing image banner and the new HTML banner. The backend service work required me to change how data was stored and retrieved so that we could support different banner types.\n\nMy project resulted in 44% smaller API response size, 3-8% improvement for client performance, and also immediate customer impact with survey ingress. Throughout the project and this internship, I was able to learn a lot about software development and continue to reinforce what I have learned in school. It was also a great opportunity that allowed me to learn more about how software engineering works in a real-world environment."
+        },
+        {
+            "time": "3:05 PM - 3:20 PM",
+            "projectId": "csse-6-305",
+            "title": "Hand Controlled LED Helmet",
+            "studentName": "Nicole Kruszewski",
+            "studentMajor": "CSSE",
+            "projectType": "Project Type",
+            "facultyAdvisor": "Mr. Mark Kochanski",
+            "posterLink": "./posters/csse/Nicole Kruszewski.png",
+            "abstract": ""        
+        }
+    ]
+}

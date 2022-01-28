@@ -1,0 +1,44 @@
+{
+    "ee": [
+        {
+            "time": "9:00 AM - 9:25 AM",
+            "projectId": "ee-900-1",
+            "title": "TENS Programmable Research Platform",
+            "studentName": "Lian Arnst",
+            "studentMajor": "Electrical Engineering",
+            "projectType": "Electrical Engineering",
+            "facultyAdvisor": "Dr. Wayne Kimura",
+            "posterLink": "./posters/ee/Team Scalar Field.jpg"
+        },
+        {
+            "time": "9:00 AM - 9:25 AM",
+            "projectId": "ee-900-2",
+            "title": "TENS Programmable Research Platform",
+            "studentName": "Nicole Guerrero",
+            "studentMajor": "Electrical Engineering",
+            "projectType": "Electrical Engineering",
+            "facultyAdvisor": "Dr. Wayne Kimura",
+            "posterLink": "./posters/ee/Team Scalar Field.jpg"
+        },
+        {
+            "time": "9:00 AM - 9:25 AM",
+            "projectId": "ee-900-3",
+            "title": "TENS Programmable Research Platform",
+            "studentName": "Taylor Manoske",
+            "studentMajor": "Electrical Engineering",
+            "projectType": "Electrical Engineering",
+            "facultyAdvisor": "Dr. Wayne Kimura",
+            "posterLink": "./posters/ee/Team Scalar Field.jpg"
+        },
+        {
+            "time": "9:00 AM - 9:25 AM",
+            "projectId": "ee-900-4",
+            "title": "TENS Programmable Research Platform",
+            "studentName": "Steven Neighbors",
+            "studentMajor": "Computer Engineering",
+            "projectType": "Electrical Engineering",
+            "facultyAdvisor": "Dr. Wayne Kimura",
+            "posterLink": "./posters/ee/Team Scalar Field.jpg"
+        }
+    ]
+}

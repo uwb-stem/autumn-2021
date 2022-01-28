@@ -1,0 +1,119 @@
+{
+    "csse": [
+        {
+            "time": "12:30 PM - 12:45 PM",
+            "projectId": "csse-5-1230",
+            "title": "MASS C++ Benchmark Programs",
+            "studentName": "Ian Dudder",
+            "studentMajor": "CSSE",
+            "projectType": "UWB CSS Faculty Research",
+            "facultyAdvisor": "Dr. Munehiro Fukuda",
+            "posterLink": "./posters/csse/Ian Dudder.jpg",
+            "abstract": "The purpose of this capstone project is to implement four benchmark programs in the MASS C++ library and to evaluate the execution speed and programmability of these programs. \n\nMASS is an agent-based parallel-computing library that specializes in aiding the implementation of agent-based models to simulate real world problems and allow meaningful conclusions to be drawn from the results of the programs. By leveraging parallelization and multithreading, this library allows large-scale simulations to be execution much faster. \n\nThe four benchmark programs I am implementing are Bail-In/Bail-Out, Virtual Development Team, Social Network, and Multi-Agent Transport Simulation. \n\nBail-In/Bail-Out models the financial market with firms, banks, and workers participating in interactions with the bank. This program observes the behavior of these three entities leading up to the bankruptcy of one of the banks.\n\nVirtual Development Team simulates a team of 25 software engineers working on tasks to complete software projects. This program observes the different configurations of how many of each type of engineer to put on a team to produce the fastest completion time.\n\nSocial Network simulates a network of friends comprised of people with a finite set of first-degree friends. Then it can compute the degree of friendship between people in the group.\n\nLastly, Multi-Agent Spatial Simulation simulates a fleet of vehicles travelling during peak hours of traffic with similar starting and ending points. Given a limited number of cars that can occupy each lane and road at one time, the commuters will experience traffic. This program observes how long it takes vehicles to complete their morning and evening routes during this traffic.\n\nUsing these four benchmark programs, along with three others implemented by students in past quarters, MASS will be compared to two other parallel-computing libraries, RepastHPC and Flame, to consider which library delivers the best execution speed and which library is the easiest to program. "        
+        },
+        {
+            "time": "12:45 PM - 1:00 PM",
+            "projectId": "csse-5-1245",
+            "title": "Time Travel Debugging",
+            "studentName": "Jessica Nguyen",
+            "studentMajor": "CSSE",
+            "projectType": "Sponsored Internship - Microsoft",
+            "facultyAdvisor": "Dr. Munehiro Fukuda",
+            "posterLink": "./posters/csse/Jessica Nguyen.png",
+            "abstract": "My internship project works with the Windows Debugger Tool on Windows Operating Systems. The tool could be used with multiple applications, such as Visual Studio, WinDbg Next (a debugging application), or PowerShell command line on Windows. I implemented a C# programs and a REST API service that records, extracts, indexes, and compresses data from user debugging sessions, called “traces” and upload all the data onto Azure database. \n\nThe purpose of this service is to allow users to look back at their debugging session to analyze patterns, see the program flow, provide deeper understanding of code, and draw important conclusions to their codes. It helps users save time when debugging; the service enables them to search for all the results from past runs instead of having to go through the debugging process all over again. Users can also search for only relevant data, sparing them the long sift through the massive amount of data recorded.\n\nAside from working on the extraction service, I also worked on developing a data compression algorithm to process thousands of gigabytes of trace data to upload from local computer to the Azure Cloud. I worked over 3 months on the algorithm with the help of my 5 team members, providing me with other necessary codes. The result of this service is that, before without the data compression, it took 20 minutes to process 5.3MB of data and upload to cloud; now it only takes 2 minutes.\n\nThe significance of the compression algorithm is, it used to cost my team $1,131 to store 5.3MB data on the cloud, now it takes $102, which is a 90% reduction in amount of money spent. Not only does this project save time, it also saves money."        
+        },
+        {
+            "time": "1:00 PM - 1:15 PM",
+            "projectId": "csse-5-100",
+            "title": "CSS Capstone Project: Parallel Graphing Applications",
+            "studentName": "Maxwell Seto",
+            "studentMajor": "CSSE",
+            "projectType": "UWB CSS Faculty Research",
+            "facultyAdvisor": "Dr. Munehiro Fukuda",
+            "posterLink": "./posters/csse/Maxwell Isak Seto.jpg",
+            "abstract": "For my capstone, I conducted instructor-based research under Professor Fukuda and the Distributed Systems Laboratory (DSL). DSL has been developing a parallel agent-based modeling library in JAVA, C++ and CUDA called MASS. My project relates to MASS Java, as an evaluation of performance and programmability compared to a well-known data-processing engine called Apache Spark. I developed, tested, and evaluated two graphing applications in Apache Spark and created a template for a future DSL member to complete the two graphing applications in MASS. \n\nThe first Spark program is an algorithm called graph bridges, which searches a social network graph for edges that when removed, result in the splitting of the original graph into two sub-graphs. The program takes in an adjacency list of said graph and uses Spark’s Resilient Distributed Datasets (RDD) to traverse each edge, assign and update critical values, and finally collect edges that satisfy the requirements of a bridge. The second Spark program is called motif-centric analysis, which searches a biological network of nodes for a given sub-graph called a motif. The program takes in an adjacency list of a large graph, as well as an adjacency list for a smaller motif, Spark’s RDDs are then used to traverse each node, using it to as a starting point in the graph for the corresponding motif, when a motif is found, the nodes involved in making the motif are collected and processed to weed out duplicates. \n\nIn the future, graph bridges and motif-centric analysis will be created in MASS Java and will allow the DSL to compare their parallel agent-based modeling to Spark’s master/worker architecture. So far, I have found the programmability of Spark to be poor/difficult. Spark’s RDDs require an abstract thought process, very different from conventional programming. "        
+        },
+        {
+            "time": "1:15 PM - 1:30 PM",
+            "projectId": "csse-5-115",
+            "title": "Software evelopment Internship at Amazon",
+            "studentName": "Matthew Martin",
+            "studentMajor": "CSSE",
+            "projectType": "Sponsored Internship - Amazon",
+            "facultyAdvisor": "Dr. Munehiro Fukuda",
+            "posterLink": "./posters/csse/Matthew Scott Martin.png",
+            "abstract": "Within Amazon, there are reports that are sent throughout the organization to keep track of important metrics for how the organization is performing. These reports contain information that is used by leadership to gauge the health of the organization as a whole. Currently, some of these reports are generated manually, which causes time to be allocated away from other important projects that may be in development. To remedy this, my project aimed to automate this report generation process.\n\nMy project has three main stages, fetching the necessary data to assemble the report, processing the data, and assembling the data into a report format. The first step involves fetching data from a database using Amazon Athena to query in an SQL like fashion. Once this data has been received, a program processes the data into a format that can be assembled into the report. Once this data has been formatted, it is uploaded into an S3 bucket. This S3 bucket is then read by a program that processes the data, and creates the actual report itself. By the end of the projects runtime, it has taken the data, processed it, and created a report file to be distributed among the organization.This solution provides multiple benefits to the organization. \n\nFirstly, it removes the manual effort in generating the report, which allows for the organization to allocate it to other projects. Another benefit is that with the S3 database storing the processed data, it can be used by the organization for purposes other than just the report. \n\nThis project has helped me improve my database designing skills, as I had to design a database to both format the input data, and the output data for the S3 bucket. I also learned how to use AWS tools, such as AWS Glue, AWS Athena, and AWS S3. "        
+        },
+        {
+            "time": "1:30 PM - 1:45 PM",
+            "projectId": "csse-5-130",
+            "title": "Pega Systems Software Engineering Internship",
+            "studentName": "Aaron Hays",
+            "studentMajor": "CSSE",
+            "projectType": "Sponsored Internship - Pega Systems, Inc",
+            "facultyAdvisor": "Dr. Robert Dimpsey",
+            "posterLink": "./posters/csse/Aaron James Hays.jpg",
+            "abstract": "Pega Systems is an US-based software company specializing in BPM and CRM software. Their core product, the Pega Platform, is a low-code application generator. This software product allows IT and business professionals to design powerful, custom software applications for their specific use-cases without the need to write code.  \n\nDuring my time at Pega Systems, I was a member of the Planet Express Full Stack Engineering Team for Low-Code App Development. The responsibilities of this position were to add features generated by user stories, address bugs, create test documentation for the new features that we were assigned to implement and write test coverage. The team was responsible for all code related to the “data modeling” section of the Pega platform. When users create applications, they define data objects and their types, as well as their interaction with other data types. It is this section of code that we were responsible for both in the React-based front-end of the application and the underlying Java engine. \n\nAs a part of my internship, I implemented new features and fixed bugs in the React-based UI repo, the Java repo and the Platform developer tools. I also created test documentation, wrote test coverage, and led document review meetings for new stories taken in by the team. \n\nMy ambition for this internship was to be a productive part of my software engineering team and I believe that I have achieved that. I have produced code that will ship with the Pega product, and I have become well-versed in the Pega platform and its underlying codebase. The result is that for the first time in my software engineering career, contributed to a real enterprise software product and become a valuable member of a software engineering team. "            
+        },
+        {
+            "time": "1:45 PM - 2:00 PM",
+            "projectId": "csse-5-145",
+            "title": "SDE Internship with AWS ACM",
+            "studentName": "Christopher Janousek",
+            "studentMajor": "CSSE",
+            "projectType": "Sponsored Internship - Amazon",
+            "facultyAdvisor": "Dr. Robert Dimpsey",
+            "posterLink": "./posters/csse/Chris Janousek.jpg",
+            "abstract": "My project was to implement an AWS AppConfig in three of the core packages for the AWS ACM team. AWS AppConfig is a capability of AWS Systems Manager, to create, manage, and quickly deploy application configurations. I created a stand alone package that handles all of the AppConfig changes and deploys the changes through a separate pipeline from previous methods.\n\nACM currently grants API access to internal and external customers through a number of static configuration files that are then accessed in various ways from different packages. All Amazon related code changes are deployed using a staged deployment pipeline. Anytime a code change is necessary to the static configuration the changes take anywhere from 20-40 days for a change to completely deploy through the pipeline. As such it isn’t feasible for a new customer that may need access quickly to potentially have to wait 40 days. The current work around is called patching which is essentially pushing changes directly to various stages of the deployment pipeline. Patching is not only time consuming but potentially could cause errors in code to be introduced that would normally be caught by the integrated tests for each stage.\n\nThe result of my changes has led a sharp decrease in time needed for customer allowlisting changes to take effect. The longest a change has taken to work itself completely through the AppConfig pipeline is 6 business days. AppConfig also allows us to push emergency changes on specific config files without utilizing the pipeline which can take effect in roughly 30 minutes which has the potential to help mitigate issues during certain events.\n\nThis change has led to less developer time being spent deploying and monitoring patch deployments for configuration changes while providing a more reliable and safer way to deploy changes in the event of an emergency."        
+        },
+        {
+            "time": "2:00 PM - 2:15 PM",
+            "projectId": "csse-5-200",
+            "title": "Software Developer Internship at Apptio",
+            "studentName": "Daniel Spray",
+            "studentMajor": "CSSE",
+            "projectType": "Sponsored Internship - Apptio",
+            "facultyAdvisor": "Dr. Robert Dimpsey",
+            "posterLink": "./posters/csse/Daniel Kenneth Spray.png",
+            "abstract": "This summer, I worked as a Software Developer Intern at Apptio. Apptio provides a suite of SaaS applications that help companies manage their IT spend. The team I worked with focused on the Cloudability application. The Cloudability application helps customers manage their cloud spending. During the 12 weeks, I worked on the containers data pipeline to decrease the amount of time the data took to process. The data pipeline is built using AWS services and Kubernetes. The service I was working on was causing a bottleneck in our pipeline as the data was taking upwards of 12 hours to process.\n\nThe service that was bottlenecking the pipeline was processing an entire months’ worth of data at a time. So, for my project, I created a new service that split the month sized data files into smaller daily files for the service to process. Once the new service was created in Go, I established a plan on how to switchover the pipeline processing to go through the new service without losing or duplicating data.\n\nAfter the pipeline was running with the new service that parsed the monthly data into daily data, the slow processing service saw a 92% decrease in processing time. The service now has a maximum of 1 hour processing time. My work on the pipeline helped increase the data pipeline’s efficiency and removed the bottleneck in the pipeline."        
+        },
+        {
+            
+            "time": "2:15 PM - 2:30 PM",
+            "projectId": "csse-5-215",
+            "title": "SDE New Grad at Expeditors",
+            "studentName": "Tanner Hanay",
+            "studentMajor": "CSSE",
+            "projectType": "Sponsored Internship - Expeditors",
+            "facultyAdvisor": "Dr. Marc Dupius",
+            "posterLink": "./posters/csse/Tanner James Hanay.jpg",
+            "abstract": "I chose to use my full-time new grad software developer role at Expeditors as my capstone. Expeditors is a global freight forwarder, and utilizes Electronic Data Interchange (EDI) as a software service for its customers. I am assigned to a team that operates under an EDI queue, Order Management. This means that my team codes translations for customer purchase order data.\n\nDuring my time, I have learned two main translation technologies. The main technology, WebMethods, a Java based integration server is used as a tool to help speed up development. The other being EDIGen, the old translation tool that the various EDI queues are migrating to WebMethods. Also, I have learned various version control technologies and how to work in an agile team. With this knowledge, I was able to code enhancements to translations for customers and push them into production.\n\nFrom my time at Expeditors, I have advanced my ability to learn new technologies and tools. This and the gained experience have been the most significant benefits of my capstone. However, the capstone itself has greatly benefitted my computer science and software engineering career. It has allowed me to not only secure a new grad job, but to also get a head start in software development experience. "        
+        },
+        {
+            
+            "time": "2:30 PM - 2:45 PM",
+            "projectId": "csse-5-230",
+            "title": "Machine Learning AI Recommendation System for Business",
+            "studentName": "Ryan Ho",
+            "studentMajor": "CSSE",
+            "projectType": "Sponsored Internship - T-Mobile",
+            "facultyAdvisor": "Dr. Marc Dupius",
+            "posterLink": "./posters/csse/Ryan Thanh Ho.png",
+            "abstract": "The usage of Machine Learning in recommendation system has grown in the recent years. T-Mobile is aware of this and are looking to create a recommendation system for their business customers. While T-Mobile has already had multiple data for customers, the data for business customers are much smaller. The recommendation system will help old and new business customers buy proper equipment for the scale of their business.\n\nHosting the machine learning recommendation system was done on AWS and compiled on Jupyter notebook. The filter system used in the machine is the usage of the collaborative filtering built in already with the FastAI framework. This allows us to recommend products depending on similar business scale since each scale requires different requirement of their equipment.\n\nThe recommendation system had to be adapted to use the current data that is stored on the database for business customers. As a result, the database wasn’t perfect to be used with machine learning which greatly effected the recommendation system in the long run. The recommendation still recommended equipment for the business customer, even if it isn’t perfect.\n\nThe creation of the recommendation system is proof of concept that a recommendation system can work on what T-Mobile database has information on. The recommendation system can clearly distinguish business scales apart from each other’s and recommend them proper tools for their business scale. With a few more refinement in the database or in the recommendation system, it will be ready for deployment to be used in the public."        
+        },
+        {
+            "time": "2:45 PM - 3:00 PM",
+            "projectId": "csse-5-245",
+            "title": "Software Engineering Internship at Amazon",
+            "studentName": "Darren Luk",
+            "studentMajor": "CSSE",
+            "projectType": "Sponsored Internship - Amazon",
+            "facultyAdvisor": "Dr. Marc Dupius",
+            "posterLink": "./posters/csse/Darren Kevin Luk.jpg",
+            "abstract": "During my internship at Amazon, I worked on the Amazon Renewed team. The Amazon Renewed team is focused on selling refurbished, pre-owned, and open-box products to customers. One of the most important goals for the Amazon Renewed team is notifying customers about the condition of the listed item and the guarantees which come with each Amazon Renewed item to ensure customer satisfaction. In order to satisfy this goal, the translations for the product details and descriptions for Amazon Renewed items must be carefully translated. The existing process for changing the translations required the Amazon Renewed business team to submit a ticket to the development team with a long turnaround time and developer hassle. My project at Amazon was to design a tool for the Amazon Renewed business team to view and manage the translations for the product page and descriptions of Amazon Renewed products. The purpose of my project was to create a tool which allowed the Amazon Renewed business team to change the translations directly, without requiring the ticket submission process and developer interaction.\n\nMy project involved meeting with the Amazon Renewed business and development team to gather requirements, designing and presenting my plan to the team, and incremental implementation of my design. The implementation of the project required designing an understandable and intuitive interface, connecting various Amazon resources and API’s, and securing the tool to allow only verified users to make changes to the translations. The result of the project provided business users with a tool to find translations for Amazon Renewed products, with a link to another Amazon service to edit the translations. "        
+        }
+        
+        
+        
+    ]
+}
